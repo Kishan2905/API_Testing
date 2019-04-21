@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Auth Key is : 5c069300fd941d2f6308c3e9]]>
+    </line>
+  </reporter-output>
+  <suite name="Login" duration-ms="4569" started-at="2018-12-04T14:45:18Z" finished-at="2018-12-04T14:45:23Z">
+    <groups>
+      <group name="app">
+        <method signature="Login.Log([Ljava.lang.String;)[pri:0, instance:com.api.com.api.testing.Login@2286778]" name="Log" class="com.api.com.api.testing.Login"/>
+        <method signature="ProfileCheck.Log([Ljava.lang.String;)[pri:0, instance:com.api.com.api.testing.ProfileCheck@71318ec4]" name="Log" class="com.api.com.api.testing.ProfileCheck"/>
+        <method signature="ProfileUpdate.Log([Ljava.lang.String;)[pri:0, instance:com.api.com.api.testing.ProfileUpdate@5abca1e0]" name="Log" class="com.api.com.api.testing.ProfileUpdate"/>
+      </group> <!-- app -->
+    </groups>
+    <test name="HaikuJamLogin" duration-ms="4569" started-at="2018-12-04T14:45:18Z" finished-at="2018-12-04T14:45:23Z">
+      <class name="com.api.com.api.testing.Login">
+        <test-method status="PASS" signature="className()[pri:0, instance:com.api.com.api.testing.Login@2286778]" name="className" is-config="true" duration-ms="0" started-at="2018-12-04T20:15:18Z" finished-at="2018-12-04T20:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- className -->
+        <test-method status="PASS" signature="Log([Ljava.lang.String;)[pri:0, instance:com.api.com.api.testing.Login@2286778]" name="Log" duration-ms="2656" started-at="2018-12-04T20:15:19Z" data-provider="TestData" finished-at="2018-12-04T20:15:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@67001148]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Auth Key is : 5c069300fd941d2f6308c3e9]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Log -->
+      </class> <!-- com.api.com.api.testing.Login -->
+      <class name="com.api.com.api.testing.ProfileCheck">
+        <test-method status="PASS" signature="server()[pri:0, instance:com.api.com.api.testing.ProfileCheck@71318ec4]" name="server" is-config="true" duration-ms="2890" started-at="2018-12-04T20:15:15Z" finished-at="2018-12-04T20:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- server -->
+        <test-method status="PASS" signature="className()[pri:0, instance:com.api.com.api.testing.ProfileCheck@71318ec4]" name="className" is-config="true" duration-ms="0" started-at="2018-12-04T20:15:22Z" finished-at="2018-12-04T20:15:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- className -->
+        <test-method status="PASS" signature="Log([Ljava.lang.String;)[pri:0, instance:com.api.com.api.testing.ProfileCheck@71318ec4]" name="Log" duration-ms="593" started-at="2018-12-04T20:15:22Z" data-provider="TestData" finished-at="2018-12-04T20:15:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@31cb96e1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log -->
+        <test-method status="PASS" signature="stopExtent()[pri:0, instance:com.api.com.api.testing.ProfileCheck@71318ec4]" name="stopExtent" is-config="true" duration-ms="188" started-at="2018-12-04T20:15:23Z" finished-at="2018-12-04T20:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopExtent -->
+      </class> <!-- com.api.com.api.testing.ProfileCheck -->
+      <class name="com.api.com.api.testing.ProfileUpdate">
+        <test-method status="PASS" signature="className()[pri:0, instance:com.api.com.api.testing.ProfileUpdate@5abca1e0]" name="className" is-config="true" duration-ms="4" started-at="2018-12-04T20:15:21Z" finished-at="2018-12-04T20:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- className -->
+        <test-method status="PASS" signature="Log([Ljava.lang.String;)[pri:0, instance:com.api.com.api.testing.ProfileUpdate@5abca1e0]" name="Log" duration-ms="656" started-at="2018-12-04T20:15:21Z" data-provider="TestData" finished-at="2018-12-04T20:15:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@989da1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log -->
+      </class> <!-- com.api.com.api.testing.ProfileUpdate -->
+    </test> <!-- HaikuJamLogin -->
+  </suite> <!-- Login -->
+</testng-results>

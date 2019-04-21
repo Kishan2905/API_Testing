@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="10" name="Failed suite [Login]" parallel="none" data-provider-thread-count="2">
+  <test name="HaikuJamLogin(failed)" parallel="none">
+    <classes>
+      <class name="com.api.com.api.testing.ProfileCheck">
+        <methods>
+          <include name="className"/>
+          <include name="stopExtent"/>
+          <include name="Log" invocation-numbers="0"/>
+          <include name="server"/>
+        </methods>
+      </class> <!-- com.api.com.api.testing.ProfileCheck -->
+      <class name="com.api.com.api.testing.ProfileUpdate">
+        <methods>
+          <include name="className"/>
+          <include name="Log" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.api.com.api.testing.ProfileUpdate -->
+      <class name="com.api.com.api.testing.Login">
+        <methods>
+          <include name="Log" invocation-numbers="0"/>
+          <include name="className"/>
+        </methods>
+      </class> <!-- com.api.com.api.testing.Login -->
+    </classes>
+  </test> <!-- HaikuJamLogin(failed) -->
+</suite> <!-- Failed suite [Login] -->

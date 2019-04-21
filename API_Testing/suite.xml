@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login" verbose="10" thread-count="2" parallel="none"
+	preserve-order="true" data-provider-thread-count="2">
+	<test name="HaikuJamLogin">
+		<classes>
+			<class name="com.api.com.api.testing.Login" />
+			<!-- <class name="com.api.com.api.testing.SocialLogin" />
+			<class name="com.api.com.api.testing.UserLoginToJam" /> -->
+			<class name="com.api.com.api.testing.ProfileUpdate" />
+			<class name="com.api.com.api.testing.ProfileCheck" />
+		</classes>
+	</test>
+</suite>
